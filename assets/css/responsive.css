@@ -1,0 +1,99 @@
+
+/* tablet layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{                       }
+
+
+/* mobile layout: 320px */
+@media only screen and  (max-width: 767px){                       
+
+/*Header section*/
+
+
+.header {
+	display: none;
+
+}
+
+
+/*banner section*/
+
+
+.banner .overlay::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #222;
+	opacity:.8;
+	
+}
+.banner {
+	position: relative;
+	overflow: hidden;
+}
+
+.banner .b-text {
+  z-index: 999;
+  position: relative;
+}
+.banner .b-text h1,.banner .b-text p,.banner .b-text h4{
+	color: #fff;
+}
+.banner .b-text span h1{
+	color: #F52225;
+}
+.banner .white-btn{
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.banner .down-btn{
+	position: relative;
+	z-index: 999;
+}
+
+
+/*about section*/
+
+.about .text{
+	padding-top: 40px;
+}
+
+.about .r-btn a{
+	margin-bottom: 10px;
+}
+
+
+.about .card{
+	margin-bottom: 20px;
+}
+
+/*sercice section*/
+
+
+.services .card{
+	margin-bottom: 20px;
+}
+
+
+/*testimonial section*/
+
+.slider .owl-prev {
+	display: none !important;
+}
+.slider .owl-next {
+	display: none !important;
+}
+
+/*blog section*/
+
+.blog .content{
+	margin-bottom: 60px;
+}
+
+
+}

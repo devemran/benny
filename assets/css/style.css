@@ -1,0 +1,566 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: poppins;
+}
+
+.white-btn{
+	background: transparent;
+	border: 2px solid #555;
+}
+.white-btn:hover{
+	background: transparent;
+	border: 2px solid #F52225;
+	color: #F52225;
+}
+
+.btn:focus {
+	box-shadow: none !important;
+	background: transparent !important;
+}
+
+.btn:active {
+	background: transparent !important;
+	box-shadow: none;
+}
+
+@font-face{
+ 	src:url(../fonts/Poppins-Regular.ttf);
+ 	font-family: poppins;
+ }
+
+/*heade-banner section*/
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: auto;
+    background-color: transparent;   
+}
+.banner{
+	background-image: url(../img/3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 80px;
+	padding-top: 100px;
+}
+.header{
+	padding: 20px 0;
+
+}
+
+.header  img{
+	width: 90px;
+	height: 46px;
+}
+.header  .nav{
+	justify-content: end;
+}
+.header .nav li a{
+    color: #555;
+    font-weight: 600;
+
+}
+
+.header  .nav li a:hover{
+	color: #F52225;
+}
+ .banner h1{
+	font-size: 70px;
+	font-weight: 600;
+}
+.banner span h1{
+	color: #F52225;
+}
+.banner p{
+	color: #777;
+}
+.banner .down-btn i{
+	font-size: 18px;
+	color: #fff;
+	padding: 16px;
+	background: #F52225;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.fixed-menu {
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,.08);
+}
+
+/*About section*/
+
+.about{
+	background: #F9F9FC;
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.about span p{
+	color: #F52225;
+	font-size: 17px;
+}
+.about h2{
+	font-size: 50px;
+	font-weight: 600;
+}
+.about p{
+	color: #777;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.about img{
+	border-radius: 10px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.about h3{
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.about h5{
+	font-weight: 600;
+}
+.about h5 span{
+	color: #F52225;
+}
+.about p{
+	font-size: 16px;
+	color: #6E6E6E;
+}
+.about hr{
+	border: none;
+	border-top: 1px solid #ddd;
+}
+.about h4{
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.about ul{
+	color: #777;
+}
+.about ul li{
+	margin-bottom: 20px;
+}
+
+.about ul span {
+	color: #000;
+	font-weight: 600;
+}
+
+.about .r-btn a {
+	background: transparent;
+	color: #6e6e6e;
+	border-color:#6e6e6e;
+	padding: 10px 20px;
+}
+
+.about .active{
+	background: #F52225	!important;
+	color: #fff	!important;
+	border-color: #F52225	!important;
+}
+
+.about .card{
+	border: none;
+}
+.about .card p{
+	display: inline-block;
+	padding: 5px 12px;
+	background: #F7F7F7;
+	border-radius: 5px;
+	color: #000;
+	font-weight: 600;
+}
+.about .card h6{
+	color: #777;
+}
+.about .card h6 span{
+	color: #000;
+	font-size: 18px;
+	line-height: 40px;
+}
+.about .card hr{
+	border: none;
+	border-top: 1px solid #ddd;
+}
+
+.progress-items {
+	margin-bottom: 33.5px;
+}
+
+.progress-items .progress {
+  height: 6px;
+}
+
+.progress-items .progress .progress-bar {
+  background: #F52225;
+}
+.about .card .t-c{
+	color: #F52225;
+}
+
+/*services section*/
+.services{
+	padding-bottom: 100px;
+}
+.services .text{
+	padding: 60px 0;
+}
+.services h6{
+	color: #F52225;
+}
+.services h1{
+	padding: 20px 0;
+	font-weight: 600;
+	font-size: 55px;
+}
+.services p{
+	color: #777;
+	font-size: 18px;
+}
+.services .card{
+	border: none;
+	background: #f9f9fc;
+	border-radius: 10px;
+}
+.services .card .content h3{
+	font-size: 25px;
+}
+
+/*portfolio-section*/
+
+
+.portfolio{
+	background: #F9F9FC;
+	padding-top: 60px;
+	padding-bottom:60px;
+}
+.portfolio .col-md-4{
+	margin-bottom: 30px;
+}
+
+.portfolio .text{
+	padding: 60px 0;
+}
+.portfolio h6{
+	color: #F52225;
+}
+.portfolio h1{
+	padding: 20px 0;
+	font-weight: 600;
+	font-size: 55px;
+}
+.portfolio p{
+	color: #777;
+	}
+
+.portfolio .overlay::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 7px;
+	background-color: #222;
+	opacity:0;
+	transition: 0.5s;
+	
+}
+
+.portfolio .overlay:hover.overlay::after {
+	opacity: 1;
+}
+.portfolio .box {
+	position: relative;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.p-img{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.portfolio .p-img img {
+	transform: scale(1);
+	transition: 0.5s;
+}
+
+.portfolio .box:hover img {
+	transform: scale(1.1);
+}
+
+.p-text{
+	position: absolute;
+	bottom: 20px;
+	left: 40px;
+	opacity:0;
+	transition: 0.5s;
+}
+
+.portfolio .box:hover .p-text {
+	opacity: 1;
+}
+
+ 
+.p-text h3{
+	color: #F52225;
+	font-weight: 600;
+	transition: 0.3s;
+}
+.p-text h3:hover {
+	letter-spacing: 1px;
+}
+.p-text p{
+	color: #fff;
+}
+/*News-section*/
+
+.testimonials{
+	padding-bottom: 100px;
+}
+.testimonials .text{
+	padding: 60px 0;
+}
+.testimonials h6{
+	color: #F52225;
+}
+.testimonials h1{
+	padding: 20px 0;
+	font-weight: 600;
+	font-size: 55px;
+}
+.testimonials p{
+	color: #777;
+	font-size: 18px;
+}
+.testimonials i{
+	font-size: ;
+	padding: 17px 17px;
+	border-radius: 50%;
+}
+
+.testimonials .t-img img{
+	width: 70%;
+	border-radius: 10px;
+	margin: auto;
+}
+.testimonials .t-text{
+	width: 90%;
+}
+/*carousel*/
+
+.slider .owl-prev {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px !important;
+  left: 0;
+  transform: translateY(-50%);
+}
+.slider .owl-prev span {
+  font-size: 23px;
+  color: #fff;
+  background: #000;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+}
+
+.slider .owl-next {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px !important;
+  right: 0;
+  transform: translateY(-50%);
+}
+.slider .owl-next span {
+  font-size: 23px;
+  color: #fff;
+  background: #F52225;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: block;
+  line-height: 35px;
+  text-align: center;
+}
+
+.slider .owl-prev span {
+  font-size: 23px;
+  color: #fff;
+  background: #F52225;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: block;
+  line-height: 35px;
+  text-align: center;
+}
+.slider .owl-nav button:hover {
+	background: transparent !important;
+}
+/*==================
+		news section
+=====================*/
+
+.blog{
+	background: #F9F9FC;
+	padding-top: 60px;
+	padding-bottom:60px;
+}
+.blog .text{
+	padding: 60px 0;
+}
+.blog h6{
+	color: #F52225;
+}
+.blog h1{
+	padding: 20px 0;
+	font-weight: 600;
+	font-size: 55px;
+}
+.blog p{
+	color: #777;
+	font-size: 18px;
+}
+.blog .box{
+	border-radius: 10px;
+	overflow: hidden;
+
+}
+
+.blog .b-img img{
+	width: 100%;
+	height: 385px;
+	object-fit: cover;
+	transition: .5s;
+}
+.blog .box:hover img{
+	transform: scale(1.1) rotate(2deg);
+	t
+	
+}
+.blog .b-text p{
+	margin-top: 10px;
+	color: #777;
+}
+.blog .b-text p span a{
+	text-decoration: none;
+	color: #777;
+	font-weight: 400;
+	transition: .5s;
+}
+.blog .b-text p span a:hover{
+	color: #F52225;
+}
+.blog .b-text a{
+	text-decoration: none;
+	font-weight: 600;
+	color: #000;
+	transition: .5s;
+}
+.blog .b-text a:hover{
+	color: #F52225;
+}
+
+
+/*===================
+	contact section
+=====================*/
+
+.contact{
+	padding: 100px 0px;
+}
+.contact .content p{
+	color: #F52225;
+}
+.contact .content h1{
+	font-size: 65px;
+	font-weight: 600;
+}
+.contact .p-icon p{
+	font-size: 18px;
+	color: #777;
+}
+.contact .p-icon  i{
+	font-size: 26px;
+	color: #F52225;
+}
+.contact .input-text{
+	justify-content: right;
+}
+
+.contact .text h4{
+	color: #888;
+	line-height: 38px;
+}
+.contact .text h4 span{
+	color: #000;
+}
+
+.contact .form-box input, .contact .form-box textarea {
+	border: none;
+	border-bottom: 1px solid #cbd3d9;
+	border-radius: 0px;
+
+}
+
+.contact .form-box input:focus, .contact .form-box textarea:focus {
+	box-shadow: none;
+	border-color: #0f172a;
+}
+.contact .btn{
+	background: #F52225;
+	border: 1px solid #F52225;
+	padding: 10px 20px;
+	color: #fff;
+}
+.contact .btn:active{
+	background: #F52225 !important;
+	border: 1px solid #F52225;
+}
+
+/*==============
+footer section
+===============*/
+
+.footer p span:hover{
+	color: #F52225;
+}
+
+
+/*top button*/
+
+.top {
+	background-color: #F52225;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 8px;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	text-align: center;
+	line-height: 27px;
+	cursor: pointer;
+}
+
+
+
