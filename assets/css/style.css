@@ -564,3 +564,7 @@ footer section
 
 
 
+/*Modal css*/
+.modal {
+	z-index: 999999999;
+}

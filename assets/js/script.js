@@ -78,32 +78,11 @@ $(".nav li a").click(function(){
 });
 
 
-//Nav bar code about
-// function navFunction(id, name){
-// 	$(document).ready(function(){       
-// 		var scroll_start = 0;
-// 		var startchange = $(id);
-// 		var offset = startchange.offset();
-// 		if (startchange.length){
-// 			$(document).scroll(function() { 
-// 				scroll_start = $(this).scrollTop();
-// 				if(scroll_start > offset.top) {
-// 					$(".nav li a").css("color", "#000");
-// 					$(name).css("color", "red");
-// 				} else {
 
-// 				}
-// 			});
-// 		}
-// 	});
-// }
-
-// navFunction("#home",".home_menu");
-// navFunction("#about",".about_menu");
-// navFunction("#service", ".service_menu");
-// navFunction("#portfolio", ".por_menu");
-// navFunction("#blog", ".blog_menu");
-// navFunction("#contact", ".contact_menu");
+// $("#clickOne").click(function(e){
+// 	e.preventDefault();
+// 	$("#modalOne").modal("show");
+// });
 
 
 
